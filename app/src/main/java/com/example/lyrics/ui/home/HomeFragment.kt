@@ -36,9 +36,9 @@ class HomeFragment : Fragment() {
 
             val inputStream: InputStream? = context?.assets?.open("nongtel3.txt")
                 ?: null
-            val text = inputStream?.bufferedReader().use { it.readText() }
+            val text = inputStream?.bufferedReader().use { it?.readText() }
 
-            Toast.makeText(activity, text, Toast.LENGTH_SHORT).show()
+            textView.text = text
 
         }
 
