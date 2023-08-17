@@ -5,11 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.lyrics.databinding.FragmentHomeBinding
-import java.io.BufferedReader
-import java.io.File
 import java.io.InputStream
 
 class HomeFragment : Fragment() {
@@ -29,18 +26,18 @@ class HomeFragment : Fragment() {
         val root: View = binding.root
 
         val textView: TextView = binding.textHome
-        binding.readBtn.setOnClickListener {
+        /*
 
 
 
-
-            val inputStream: InputStream? = context?.assets?.open("nongtel3.txt")
+            val inputStream: InputStream? = context?.assets?.open("nongtel.txt")
                 ?: null
             val text = inputStream?.bufferedReader().use { it?.readText() }
 
             textView.text = text
 
-        }
+         */
+
 
         return root
     }
