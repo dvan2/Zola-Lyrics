@@ -3418,7 +3418,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id readBtn
 id rectangles
 id report_drawn
 id reverseSawtooth

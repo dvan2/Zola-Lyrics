@@ -28,7 +28,6 @@ id nav_home
 id nav_host_fragment_content_main
 id nav_slideshow
 id nav_view
-id readBtn
 id textView
 id text_gallery
 id text_home
